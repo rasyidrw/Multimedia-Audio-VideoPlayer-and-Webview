@@ -13,6 +13,9 @@
 		27F8D94723E2774700E89AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F8D94523E2774700E89AAE /* Main.storyboard */; };
 		27F8D94923E2774C00E89AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F8D94823E2774C00E89AAE /* Assets.xcassets */; };
 		27F8D94C23E2774C00E89AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F8D94A23E2774C00E89AAE /* LaunchScreen.storyboard */; };
+		27F8D95523E2783000E89AAE /* androidcommercial.3gp in Resources */ = {isa = PBXBuildFile; fileRef = 27F8D95323E2782F00E89AAE /* androidcommercial.3gp */; };
+		27F8D95623E2783000E89AAE /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 27F8D95423E2783000E89AAE /* music.mp3 */; };
+		27F8D95923E2846500E89AAE /* WebKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F8D95823E2846500E89AAE /* WebKitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		27F8D94823E2774C00E89AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27F8D94B23E2774C00E89AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27F8D94D23E2774C00E89AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27F8D95323E2782F00E89AAE /* androidcommercial.3gp */ = {isa = PBXFileReference; lastKnownFileType = file; path = androidcommercial.3gp; sourceTree = "<group>"; };
+		27F8D95423E2783000E89AAE /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		27F8D95823E2846500E89AAE /* WebKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		27F8D93E23E2774700E89AAE /* Multimedia and Webview */ = {
 			isa = PBXGroup;
 			children = (
+				27F8D95723E278BB00E89AAE /* Multimedia */,
 				27F8D93F23E2774700E89AAE /* AppDelegate.swift */,
 				27F8D94123E2774700E89AAE /* SceneDelegate.swift */,
 				27F8D94323E2774700E89AAE /* ViewController.swift */,
@@ -63,8 +70,18 @@
 				27F8D94823E2774C00E89AAE /* Assets.xcassets */,
 				27F8D94A23E2774C00E89AAE /* LaunchScreen.storyboard */,
 				27F8D94D23E2774C00E89AAE /* Info.plist */,
+				27F8D95823E2846500E89AAE /* WebKitViewController.swift */,
 			);
 			path = "Multimedia and Webview";
+			sourceTree = "<group>";
+		};
+		27F8D95723E278BB00E89AAE /* Multimedia */ = {
+			isa = PBXGroup;
+			children = (
+				27F8D95423E2783000E89AAE /* music.mp3 */,
+				27F8D95323E2782F00E89AAE /* androidcommercial.3gp */,
+			);
+			path = Multimedia;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +142,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F8D95623E2783000E89AAE /* music.mp3 in Resources */,
 				27F8D94C23E2774C00E89AAE /* LaunchScreen.storyboard in Resources */,
 				27F8D94923E2774C00E89AAE /* Assets.xcassets in Resources */,
+				27F8D95523E2783000E89AAE /* androidcommercial.3gp in Resources */,
 				27F8D94723E2774700E89AAE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +159,7 @@
 			files = (
 				27F8D94423E2774700E89AAE /* ViewController.swift in Sources */,
 				27F8D94023E2774700E89AAE /* AppDelegate.swift in Sources */,
+				27F8D95923E2846500E89AAE /* WebKitViewController.swift in Sources */,
 				27F8D94223E2774700E89AAE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
